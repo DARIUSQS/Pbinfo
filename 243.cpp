@@ -1,25 +1,3 @@
-// Cerinţa
-// Se consideră şirul 1, 2,1, 3,2,1, 4,3,2,1, ..., în care prima grupă este formată din numărul 1, a doua grupă este formată din numerele 2,1, …, a k-a grupă este formată din numerele k,k-1,...,2,1.
-
-// Pentru un număr natural dat n, să se determine al n-lea termen din şir.
-
-// Date de intrare
-// Programul citeşte de la tastatură numărul n
-
-// Date de ieşire
-// Programul va afişa pe ecran numărul x, reprezentând al n-lea termen din şir.
-
-// Restricţii şi precizări
-// 1 ≤ n ≤ 1.000.000.000
-
-// Exemplu
-
-// Date de intrare
-// 14
-
-// Date de ieşire
-// 2
-
 #include<iostream>
 #include<fstream>
 #include<cmath>
