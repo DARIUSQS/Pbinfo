@@ -1,19 +1,18 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-using namespace std;
 
 int main()
 {
     std::fstream si("fibo0.in", std::ios::in);
     std::fstream so("fibo0.out", std::ios::out);
 
-    int a,b,r;
+    int a = 0,b = 0,r = 0;
 
     std::string line;
-    while(getline(si,line))
+    while(si >> a >> b)
     {
-        if(b % a ==0)
+        if(b % a == 0)
         r++;
     }
     so << r;
