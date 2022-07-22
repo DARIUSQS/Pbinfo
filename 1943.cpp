@@ -3,7 +3,7 @@
 
 std::fstream is("bacterie.in", std::ios::in);
 std::fstream os("bacterie.out", std::ios::out);
-
+ 
 int main()
 {
     unsigned long long  n,m,min,gausssum,remaining;
